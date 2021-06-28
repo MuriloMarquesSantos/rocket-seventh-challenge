@@ -49,8 +49,6 @@ const Dashboard: React.FC = () => {
         outcome: formatValue(Number(data.balance.outcome)),
         total: formatValue(Number(data.balance.total)),
       });
-      console.log('hello')
-      console.log(data);
     }
 
     loadTransactions();
